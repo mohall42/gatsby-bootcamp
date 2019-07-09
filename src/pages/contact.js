@@ -1,15 +1,15 @@
 import React from 'react'
-import Footer from '../components/footer'
+import Layout from '../components/layout'
 
 
 const Contact = () => {
     return (
 
-    <div>   
+   <Layout>
         <h1>Contact</h1>
         <p>Find me on Dribbble <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer">here</a></p>
-        <Footer></Footer>
-    </div>
+       
+   </Layout>
     )
 
 }

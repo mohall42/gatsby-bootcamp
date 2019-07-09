@@ -6,4 +6,11 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: 'Michael\'s Gatsby Project',
+    author: 'Michael Hall'
+  },
+  plugins: [
+    'gatsby-plugin-sass'
+  ]
 }
